@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- metadata elements -->
+	<title>The Basics of HTML and CSS</title>
+	  <style>
+		#navbar {
+			position: fixed;
+			z-index: 999;
+			background-color: #DBEBF1;
+
+		}
+		
+		.nav-link {
+			padding: 10px 20px 10px 20px;
+			background-color: #DBEBF1;
+		}
+	  
+	  	#welcome-section {
+        
+			z-index: 1;
+      width: 90%;
+			padding: 25px 0 0 0;
+			background-color: #C0DEFF;
+		}
+	  
+		@media (max-width: 375px) {
+			#welcome-section {
+				width: 340px;
+				background-color: #F5F5F5;
+			}
+	  } 
+	  </style>
+  </head>
+
+  <body>
+	<nav id="navbar">
+		<a class="nav-link" href="#tribute-page">Tribute Page</a>
+        <a class="nav-link" href="#survey-form">Survey Form</a>
+        <a class="nav-link" href="#product-landing">Product Landing Page</a>
+        <a class="nav-link" href="#technical-documentation">Technical Documentation Page</a> 
+        <a class="nav-link" href="#github-profile">GitHub Profile</a>
+	</nav>
+	
+    <main id="welcome-section">
+		<article id="projects">
+			<h1>My Portfolio</h1>
+			<p>These are the projects I have been working on from FreeCodeCamp.org.</p>
+			<section id="tribute-page" class="project-tile">
+				<h2>Build a Tribute Page</h2>
+				<p>The first project was to <a href="https://s.codepen.io/adam_weiler/debug/oPxJZR/ZoABaKzgeELr" target="blank">Build a Tribute Page</a>.</p>
+			</section>
+			
+			<section id="survey-form" class="project-tile">
+				<h2>Build a Survey Form</h2>
+				<p>The second project was to <a href="https://s.codepen.io/adam_weiler/debug/EeKJEG/mWAoNxLnmOnr" target="blank">Build a Survey Form</a>.</p>
+			</section>
+			
+			<section id="product-landing" class="project-tile">
+				<h2>Build a Product Landing Page</h2>
+				<p>The third project was to <a href="https://s.codepen.io/adam_weiler/debug/KxzjOa/vPMKKzejJLyM" target="blank">Build a Product Landing Page</a>.</p>
+			</section>
+			
+			<section id="technical-documentation" class="project-tile">
+				<h2>Build a Technical Documentation Page</h2>
+				<p>The fourth project was to <a href="https://s.codepen.io/adam_weiler/debug/JaKjwv/bYrdyeXBaExA" target="blank">Build a Technical Documentation Page</a>.</p>
+			</section>
+			
+			<section id="github-profile">
+				<h2>My GitHub Page</h2>
+				<p>Also view my content on <a href="https://github.com/adam-weiler" id="profile-link" target="blank">my GetHub Profile</a>.</p>	
+			</section>
+		</article>
+		
+    </main>
+  </body>
+</html>
